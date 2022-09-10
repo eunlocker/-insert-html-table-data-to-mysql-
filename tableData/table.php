@@ -25,7 +25,7 @@ table.GeneratedTable thead {
 <table id="RepTable1"   class="GeneratedTable">
   <thead>
     <tr>
-      <th width="1"> <input type="checkbox" id="allcb" name="allcb" /></th>
+      <th width="1"> <input type="checkbox" id="chbheader" name="chbheader" /></th>
       <th>Name</th>
       <th>price 1</th>
       <th>Price 2</th>
@@ -72,7 +72,7 @@ table.GeneratedTable thead {
   </html>
 <script>
  
-$('#allcb').change(function () {
+$('#chbheader').change(function () {
     $('tbody tr td input[type="checkbox"]').prop('checked', $(this).prop('checked'));
 });
 
